@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Dell XPS 13"
+  },
+  {
+    "id": 2,
+    "name": "MacBook Air"
+  },
+  {
+    "id": 3,
+    "name": "HP Spectre x360"
+  },
+  {
+    "id": 4,
+    "name": "Lenovo ThinkPad X1 Carbon"
+  },
+  {
+    "id": 5,
+    "name": "Asus ZenBook UX425"
+  },
+  {
+    "id": 6,
+    "name": "Acer Swift 3"
+  },
+  {
+    "id": 7,
+    "name": "Microsoft Surface Laptop 4"
+  },
+  {
+    "id": 8,
+    "name": "Razer Blade Stealth 13"
+  },
+  {
+    "id": 9,
+    "name": "LG Gram 17"
+  },
+  {
+    "id": 10,
+    "name": "Alienware m15 R5"
+  },
+  {
+    "id": 11,
+    "name": "MSI GS66 Stealth"
+  },
+  {
+    "id": 12,
+    "name": "Apple MacBook Pro 16-inch"
+  },
+  {
+    "id": 13,
+    "name": "Lenovo IdeaPad Flex 5"
+  },
+  {
+    "id": 14,
+    "name": "Dell G5 15"
+  },
+  {
+    "id": 15,
+    "name": "HP Pavilion Gaming 15"
+  },
+  {
+    "id": 16,
+    "name": "Acer Predator Triton 500 SE"
+  },
+  {
+    "id": 17,
+    "name": "ASUS TUF Dash F15"
+  },
+  {
+    "id": 18,
+    "name": "Gigabyte AERO 15 OLED"
+  },
+  {
+    "id": 19,
+    "name": "Alienware m17 R4"
+  },
+  {
+    "id": 20,
+    "name": "Razer Blade 15"
+  }
+]

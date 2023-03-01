@@ -1,0 +1,138 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(57, 126, 67);
+  color: #fff;
+  font-size: 18px;
+  height: 60px;
+  padding: 0 20px;
+  position: relative;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  position: relative;
+}
+
+.menu-link {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu-link:hover {
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  font-weight: bold;
+  color: beige;
+}
+
+.dropdown-icon {
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-top-color: #fff;
+  margin-left: 5px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  z-index: 1;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding-top: 10px;
+}
+
+.menu-item:hover .dropdown-menu,
+.dropdown-menu:hover {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 10px 20px;
+  text-align: left;
+}
+
+.dropdown-link {
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-link:hover {
+  background-color: #f5f5f5;
+}
+
+.dropdown-menu-sub {
+  display: none;
+  position: absolute;
+  top: 0; /* position relative to the parent item */
+  left: 100%; /* position relative to the parent item */
+  z-index: 2; /* make sure it appears above all other elements */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding-top: 10px; /* add some padding to prevent gap */
+}
+
+.dropdown-item-sub {
+  position: relative; /* set to relative to keep sub-items aligned */
+}
+
+.dropdown-link-sub {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  padding: 10px 20px;
+}
+
+.dropdown-link-sub:hover {
+  background-color: #f5f5f5;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .menu-list {
+    flex-direction: column;
+  }
+
+  .menu-item {
+    margin-bottom: 10px;
+  }
+
+  .menu-link {
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+  }
+
+  .dropdown-menu {
+    position: static;
+    display: block;
+    width: 100%;
+    margin: 10px 0 0;
+    border: none;
+    box-shadow: none;
+  }
+
+  .dropdown-item {
+    padding: 10px 0;
+  }
+}

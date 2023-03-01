@@ -1,0 +1,109 @@
+[
+  {
+    "id": "desktops",
+    "icon": "mdi:desktop-classic",
+    "text": "DESKTOPS",
+    "subItem": [
+      {
+        "id": "HP",
+        "icon": "BookmarkBorder",
+        "text": "HP",
+        "subItems": [
+          {
+            "id": "PRODESK",
+            "text": "PRODESK",
+            "icon": "Archive"
+          },
+          {
+            "id": "PAVILION",
+            "text": "PAVILION",
+            "icon": "AssignmentTurnedIn"
+          }
+        ]
+      },
+      {
+        "id": "DELL",
+        "icon": "BookmarkBorder",
+        "text": "DELL",
+        "subItems": [
+          {
+            "id": "VOSTRO",
+            "text": "VOSTRO",
+            "icon": "Archive"
+          },
+          {
+            "id": "OPTIPLEX",
+            "text": "OPTIPLEX",
+            "icon": "AssignmentTurnedIn"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAPTOPS",
+    "icon": "bi:laptop",
+    "text": "LAPTOPS",
+    "subItem": [
+      {
+        "id": "HP",
+        "icon": "BookmarkBorder",
+        "text": "HP",
+        "subItems": [
+          {
+            "id": "PAVILION",
+            "text": "PAVILION",
+            "icon": "Archive"
+          },
+          {
+            "id": "PROBOOK",
+            "text": "PROBOOK",
+            "icon": "AssignmentTurnedIn"
+          }
+        ]
+      },
+      {
+        "id": "DELL",
+        "icon": "BookmarkBorder",
+        "text": "DELL",
+        "subItems": [
+          {
+            "id": "VOSTRO",
+            "text": "VOSTRO",
+            "icon": "Archive"
+          },
+          {
+            "id": "LATITUDE",
+            "text": "LATITUDE",
+            "icon": "AssignmentTurnedIn"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "accessories",
+    "icon": "ic:outline-cable",
+    "text": "ACCESSORIES"
+  },
+  {
+    "id": "cctv-systems",
+    "icon": "bx:cctv",
+    "text": "CCTV SYSTEMS"
+  },
+  {
+    "id": "printers",
+    "icon": "mdi:printer-pos-edit-outline",
+    "text": "PRINTERS"
+  },
+  {
+    "id": "consumables",
+    "icon": "mdi:ink-color",
+    "text": "CONSUMABLES"
+  },
+  {
+    "id": "office-solutions",
+    "icon": "wpf:phone-office",
+    "text": "OFFICE SOLUTIONS"
+  }
+]
